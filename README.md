@@ -12,3 +12,4 @@ curl --location --request GET 'http://localhost:8080/cuisine-service/cuisines/1'
 curl --location --request POST 'http://localhost:8080/cuisine-service/cuisines' \
 --header 'Content-Type: application/json' \
 --data-raw '{"cuisine_id":4, "name":"Pho"}'
+
